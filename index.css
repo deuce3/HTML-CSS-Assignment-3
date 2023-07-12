@@ -1,0 +1,185 @@
+@font-face {
+    font-family: robotoFont;
+    src: url(fonts/roboto/Roboto-Regular.ttf);
+}
+
+* {
+    font-family: robotoFont;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin-right: 10em;
+    font-size: 0.75em;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: purple
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    margin-top: -10px;
+    top: 0px;
+}
+
+.showfeats {
+    z-index: 1;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 6em;
+    font-weight: lighter;
+}
+
+.main-container {
+    display: block;
+    align-content: center;
+    margin: auto;
+    width: 75%;
+    background-color: white;
+    margin-top: 15em;
+    
+}
+
+.date-wrapper {
+    border: 1px solid rgb(146, 146, 146);
+    background-color: rgb(242, 242, 242);
+    padding: 0px 5%;
+}
+
+.shows-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.shows-content-container {
+    margin: 0 10%;
+}
+
+.shows-header-wrapper {
+    margin-top: 0px;
+}
+
+.shows-date-wrapper {
+    padding-top: 10%;
+}
+
+.shows-address-wrapper {
+    padding-top: 10%;
+}
+
+.shows-price-wrapper {
+    padding-top: 10%;
+}
+
+.shows-button-container {
+    display: block;
+    align-content: flex-end;
+    margin: auto;
+    padding: 10px 0;
+    margin-left: 19%;
+}
+
+.shows-read-more-button-wrapper {
+    border: 1px solid rgb(146, 146, 146);
+    background-color: rgb(254, 191, 74);
+    padding: 10px 15px;
+    color: white;
+    font-size: 1.15em;
+}
+
+hr {
+    background-color: rgb(146, 146, 146);
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-header-wrapper {
+    margin-top: 0px;
+}
+
+.footer-content-wrapper {
+    font-size: .75em;
+    padding: 15% 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.footer-image-wrapper {
+    display: block;
+    align-content: center;
+}
+
+.resize-footer-image {
+    width: 325px;
+    height: 225px
+}
